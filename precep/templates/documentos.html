@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+{% block title %} Documentos {% endblock %}
+
+{% block content %}
+
+<h3 class="playwrite-de-grund">Algunos Documentos Útiles</h3>
+
+  
+<div class="list-group">
+    <!-- Button trigger boletin -->
+    <button type="button" class="button-74" data-bs-toggle="modal" data-bs-target="#boletinModal">
+        Boletín de Calificaciones
+    </button><!-- Button trigger parteDiario -->
+    <button type="button" class="button-74" data-bs-toggle="modal" data-bs-target="#parteDiarioModal">
+        Parte Diario
+    </button>
+      <!-- Button trigger planillaCal -->
+    <button type="button" class="button-74" data-bs-toggle="modal" data-bs-target="#planillaCalModal">
+        Planilla de Calificaciones
+    </button>
+    <!-- Button trigger registroAnual -->
+    <button type="button" class="button-74" data-bs-toggle="modal" data-bs-target="#registroAnualModal">
+        Registro Anual
+    </button>
+    <!-- Button trigger registroAsistencia -->
+    <button type="button" class="button-74" data-bs-toggle="modal" data-bs-target="#registroAsistenciaModal">
+        Registro de Asistencias
+    </button>
+</div>
+
+
+  <!-- Modal boletin -->
+  <div class="modal fade" id="boletinModal" tabindex="-1" aria-labelledby="boletinModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="playwrite-de-grund" id="boletinModalLabel">Boletín de Calificaciones</h1>
+        </div>
+            <iframe src="https://drive.google.com/file/d/1WGH-8m1eioqgpjUg6FCgJFV58S--s63S/preview" width="100%" height="600px"></iframe>
+        <div class="modal-footer">
+          <button type="button" class="button-56" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal parte diario -->
+  <div class="modal fade" id="parteDiarioModal" tabindex="-1" aria-labelledby="parteDiarioModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="playwrite-de-grund" id="parteDiarioModalLabel">Parte Diario</h1>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://drive.google.com/file/d/1BTRk0sP9REgsf7eKflmoHb_NtzkjLcEW/preview" width="100%" height="600px"></iframe>
+        </div>
+            
+        <div class="modal-footer">
+          <button type="button" class="button-56" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal planillaCal -->
+  <div class="modal fade" id="planillaCalModal" tabindex="-1" aria-labelledby="planillaCalModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="playwrite-de-grund" id="planillaCalModalLabel">Planilla de Calificaciones</h1>
+        </div>
+            <iframe src="https://drive.google.com/file/d/1DuSRvb8LfdiRH-2j1esCX3wNtjKvFe7_/preview" width="100%" height="600px"></iframe>
+        <div class="modal-footer">
+          <button type="button" class="button-56" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Modal registroAsistencia -->
+    <div class="modal fade" id="registroAsistenciaModal" tabindex="-1" aria-labelledby="registroAsistenciaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="playwrite-de-grund" id="registroAsistenciaModalLabel">Registro de Asistencia del Alumno</h1>
+            </div>
+                <iframe src="https://drive.google.com/file/d/1mpI63ICrnI0dh2yQv-NqejDfA_piXF6m/preview" width="100%" height="600px"></iframe>
+            <div class="modal-footer">
+              <button type="button" class="button-56" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Modal registroAnual -->
+    <div class="modal fade" id="registroAnualModal" tabindex="-1" aria-labelledby="registroAnualModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="playwrite-de-grund" id="registroAnualModalLabel">Registro Anual de Evaluaciones</h1>
+            </div>
+                <iframe src="https://drive.google.com/file/d/1d7cnmgrJ2pldQEywKJGUcwg_lc5xse7i/preview" width="100%" height="600px"></iframe>
+            <div class="modal-footer">
+              <button type="button" class="button-56" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  
+{% endblock %}

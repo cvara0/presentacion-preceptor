@@ -1,0 +1,147 @@
+
+{% extends 'base.html' %}
+{% block title %} Labor {% endblock %}
+
+{% block content %}
+<p>El preceptor desempeña un rol clave en la vida escolar, proporcionando apoyo académico y emocional a los estudiantes, colaborando con el personal docente y administrativo, y fomentando un ambiente educativo positivo</p>
+
+
+  
+<div class="list-group">
+    <!-- Button trigger supervision -->
+    <button type="button" class="button-52" data-bs-toggle="modal" data-bs-target="#supervisionModal">
+        Supervisión y Orientación
+    </button><!-- Button trigger apoyo -->
+    <button type="button" class="button-52" data-bs-toggle="modal" data-bs-target="#apoyoModal">
+        Apoyo Académico
+    </button>
+      <!-- Button trigger administracion -->
+    <button type="button" class="button-52" data-bs-toggle="modal" data-bs-target="#administracionModal">
+        Administración y Organización
+    </button>
+    <!-- Button trigger vinculacion -->
+    <button type="button" class="button-52" data-bs-toggle="modal" data-bs-target="#vinculacionModal">
+        Vinculación con la Comunidad
+    </button>
+    <!-- Button trigger desarrollo -->
+    <button type="button" class="button-52" data-bs-toggle="modal" data-bs-target="#desarrolloModal">
+        Desarrollo Personal y Profesional
+    </button>
+</div>
+
+
+  <!-- Modal supervision -->
+  <div class="modal fade" id="supervisionModal" tabindex="-1" aria-labelledby="supervisionModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="playwrite-de-grund" id="supervisionModalLabel">Figura de Autoridad</h1>
+        </div>
+            <div class="card mb-3">
+                <img style="max-width: 200px; height: auto; align-self: center;" class="card-img-top" src="https://i.postimg.cc/3Ns0qRS1/image.png" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Guía y apoya a los estudiantes en su proceso de aprendizaje,
+                    supervisa el cumplimiento de las normas y reglamentos escolares, y
+                    ayuda en la resolución de conflictos entre estudiantes.</p>
+                </div>
+              </div>
+        <div class="modal-footer">
+          <button type="button" class="button-56" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal apoyo -->
+  <div class="modal fade" id="apoyoModal" tabindex="-1" aria-labelledby="apoyoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="playwrite-de-grund" id="apoyoModalLabel">Asistente Indispensable</h1>
+        </div>
+            <div class="card mb-3">
+                <img style="max-width: 200px; height: auto; align-self: center;" class="card-img-top" src="https://i.postimg.cc/SxFSjKZ6/image.png" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Asiste a los profesores en la preparación y organización de materiales didácticos,
+                    acompaña a los estudiantes con dificultades académicas, ofreciendo tutorías y asesorías.</p>
+                </div>
+            </div>
+        <div class="modal-footer">
+          <button type="button" class="button-56" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal administracion -->
+  <div class="modal fade" id="administracionModal" tabindex="-1" aria-labelledby="administracionModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="playwrite-de-grund" id="administracionModalLabel">El Mejor Organizando</h1>
+        </div>
+            <div class="card mb-3">
+                <img style="max-width: 200px; height: auto; align-self: center;" class="card-img-top" src="https://i.postimg.cc/vHzy8vVs/image.png" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Colabora en la organización de actividades extracurriculares, 
+                    ayuda en la coordinación de eventos y proyectos escolares,
+                    gestiona y actualiza registros y documentación relacionada con los estudiantes.</p>
+                </div>
+              </div>
+        <div class="modal-footer">
+          <button type="button" class="button-56" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+  <!-- Modal vinculacion -->
+  <div class="modal fade" id="vinculacionModal" tabindex="-1" aria-labelledby="vinculacionModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="playwrite-de-grund" id="vinculacionModalLabel">Administrador de Reuniones</h1>
+        </div>
+            <div class="card mb-3">
+                <img style="max-width: 200px; height: auto; align-self: center;" class="card-img-top" src="https://i.postimg.cc/hPDSFY5n/image.png" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Fomenta la comunicación entre la escuela, los padres y la comunidad,
+                    organiza reuniones y entrevistas con los padres de familia.</p>
+                </div>
+              </div>
+        <div class="modal-footer">
+          <button type="button" class="button-56" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Modal desarrollo -->
+    <div class="modal fade" id="desarrolloModal" tabindex="-1" aria-labelledby="desarrolloModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="playwrite-de-grund" id="desarrolloModalLabel">Mejorar Continuamente</h1>
+            </div>
+                <div class="card mb-3">
+                    <img style="max-width: 200px; height: auto; align-self: center;" class="card-img-top" src="https://i.postimg.cc/dVMgPH66/image.png" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Participa en capacitaciones y programas de desarrollo profesional.
+                        Reflexiona sobre su práctica docente para mejorar continuamente.</p>
+                    </div>
+                  </div>
+            <div class="modal-footer">
+              <button type="button" class="button-56" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+                        
+{% endblock %}
+
