@@ -17,3 +17,7 @@ def labor():
 @bp.route('/historia')
 def historia():
     return render_template('historia.html')
+
+@bp.route('/novedades')
+def novedades():
+    return render_template('novedades.html')

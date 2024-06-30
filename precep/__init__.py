@@ -5,7 +5,7 @@ def create_app():
     app = Flask(__name__)
 
     app.config.from_mapping(
-        DEBUG = False,
+        DEBUG = True,
         SECRET_KEY = 'devprece'
     )
     
